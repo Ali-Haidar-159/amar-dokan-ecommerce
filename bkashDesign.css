@@ -1,0 +1,85 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            main design starts here 
+============================================== */
+
+#mainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#mainDiv #bkash{
+    border: 1px solid #d11243;
+}
+
+#mainDiv #bkash #logoDiv{
+    padding: 15px;
+    border-bottom: 2px solid #a20404;
+    margin-bottom: 15px;
+}
+
+#bkashLogo{
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+#amountDiv{
+    padding: 15px;
+}
+
+#amountDiv p{
+    line-height: 2px;
+    margin-right: 10px;
+}
+
+#userInput{
+    padding: 6px;
+    background-color: #d11243;
+    color: white;
+}
+
+.btn-group{
+    width: 100%;
+}
+
+#bkashFooter{
+    padding: 5px;
+}
+
+#bkashFooter h6{
+    text-align: center;
+}
+
+#bkashFooter h6 i{
+    padding: 10px;
+    background-color: #d11243;
+    border-radius: 50%;
+    color: white;
+}
+
+
+#paymentStatus{
+    width: 400px;
+    display: none;
+}
+
+
+/* main design ends here  */

@@ -1,0 +1,91 @@
+            <footer>
+
+                <section id="footerSec">
+
+                    <div id="footerDiv">
+
+                        <div id="footer" class="row">
+
+                            <div class="col-sm-6 col-lg-3">
+
+                                <div>
+
+                                    <h6>Order & Purchases</h6>
+
+                                    <ul>
+                                        <li><a onclick="window.alert('Order status none')" href="#">Check order status</a></li>
+                                        <li><a href="./delivery.html">Shipping, Delivery & Pickup</a></li>
+                                        <li><a href="./returnpage.html">Returns & Exchanges</a></li>
+                                        <li><a href="#">Price Match Guarantee</a></li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3">
+
+                                <div>
+
+                                    <h6>Support & Services</h6>
+
+                                    <ul>
+                                        <li><a href="./delivery.html#contactDiv">Visit our Support Center</a></li>
+                                        <li><a href="./delivery.html#contactDiv">Connect with an Expert</a></li>
+                                        <li><a href="./delivery.html#contactDiv">Protection & Support Plans</a></li>
+                                        <li><a href="./delivery.html">Contact Us</a></li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3">
+
+                                <div>
+
+                                    <h6>Rewards & Membership</h6>
+
+                                    <ul>
+                                        <li><a href="#">Amar_Dokan Memberships</a></li>
+                                        <li><a href="#">View Points & Certificates</a></li>
+                                        <li><a href="#">Member Offers</a></li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3">
+
+                                <div>
+
+                                    <form action="mailto:" method="post" enctype="text/plain">
+
+                                        <label class="form-label" for="message">Send your message</label>
+                                        <div class="btn-group">
+                                            <input type="message" name="message" id="message">
+                                            <button class="btn btn-sm btn-success"><i class="fa-solid fa-paper-plane"></i></button>
+                                        </div>
+
+                                    </form>
+
+                                    <div id="socialMedia">
+                                        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </footer>

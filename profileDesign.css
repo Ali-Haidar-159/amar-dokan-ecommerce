@@ -1,0 +1,67 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff5f5;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            main design starts here 
+============================================== */
+
+#firstRow{
+    padding: 1% 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profileDiv{
+    padding: 3%;
+}
+
+#profilePic{
+    width: 50%;
+}
+
+#secondPart div{
+    padding: 12px;
+}
+
+#ratingsDiv{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+#ratingsDiv .column{
+    text-align: center;
+    border-right: 2px solid #dddddd;
+}
+
+#ratingsDiv .column:last-child{
+    border-right: none;
+}
+
+#homeButton{
+    display: block;
+    margin: 2rem auto;
+}
+
+
+/* main design ends here  */
+

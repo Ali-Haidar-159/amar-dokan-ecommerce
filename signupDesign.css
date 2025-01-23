@@ -1,0 +1,47 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            main design starts here 
+============================================== */
+
+#mainDiv{
+    padding: 10px;
+    border: 1.5px solid #dddddd;
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+#mainDiv:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+
+#logo{
+    width: 150px;
+}
+
+#signupDiv{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#signupDiv form div{
+    margin-top:15px ;
+}
+
+
+/* main design ends here  */

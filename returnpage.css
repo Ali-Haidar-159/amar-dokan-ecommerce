@@ -1,0 +1,127 @@
+/* ============================================== 
+            initial design starts here 
+============================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* initial design ends here  */
+
+/* ============================================== 
+            header design starts here 
+============================================== */
+
+/* #firstRow #firstNav{
+    background-color: #352a9e;
+} */
+
+#firstRow{
+    background-color: #352a9e;
+    padding: 3px;
+}
+
+#firstRow #loginButton{
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    width: 90px;
+}
+
+#firstRow #firstNav li a{
+    color: white;
+    font-size: 10px;
+}
+
+#secondRow #secondNav #headerLogo{
+    width: 130px;
+}
+
+#secondRow #secondNav .nav-item{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#secondRow #secondNav .nav-item:hover{
+    border: 2px solid #352a9e;
+}
+
+#addToCart{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:600px){
+    #addToCartDiv{
+        display: none;
+    }
+
+    #secondRow #secondNav .nav-item{
+        text-align: center;
+    }
+
+    #searchProductDiv{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#thirdRow{
+    background-color: #d6eaf8;
+    padding: 5px 15px;
+}
+
+#secondRow{
+    position: sticky;
+    top:0 ;
+    z-index: 10;
+    background-color: #f8f9fa;
+}
+
+/* header design ends here  */
+
+
+/* ============================================== 
+            footer design starts here 
+============================================== */
+
+footer #footerDiv{
+    background-color: #dddddd;
+}
+
+footer #footerSec #footerDiv{
+    padding: 20px;
+    margin: 15px 10px;
+}
+
+footer #footerSec #footerDiv #footer ul li{
+
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+#socialMedia i{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+}
+
+/* footer design ends here  */
+
+body {
+    background-color: #f8f9fa;
+  }
+  .form-container {
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
