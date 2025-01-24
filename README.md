@@ -25,4 +25,4 @@ Feel free to fork this repository and create pull requests. If you'd like to sug
 
 ## Website Link
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [AmarDokan](amardokan123.vercel.app).
